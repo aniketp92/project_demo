@@ -1,0 +1,252 @@
+
+
+   .btn-my {color: #fff; background-color: #3fdda7; border-color: #3fdda7;}
+   .btn-my:hover {color: #000;
+    background-color: #fff;}
+.sp {color:#d00606;}
+.table-color {background: black!important; color: #fff!important;} 
+/*  myView */
+.myView table, th, td {border: 1px solid #ddd;padding: 8px;}
+.myView table {width: 100%}
+/*  Mobile View */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.my-center {text-align: center!important;}	
+.myView  table, thead, tbody, th, td, tr {display: block;}
+.myView table {border: 1px solid #0000;}
+.myView thead tr {position: absolute; top: -9999px; left: -9999px;}
+.myView tr {margin: 0 0 2rem 0;}
+.myView tr:nth-child(odd) {background: #f9f9f9;}
+.myView td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.myView td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.myView td:nth-of-type(1):before {content: "User Name";}
+.myView td:nth-of-type(2):before {content: "Rating";}
+.myView td:nth-of-type(3):before {content: "Feedback";}
+.myView td:nth-of-type(4):before {content: "Organization Reply";}
+.myView td:nth-of-type(5):before {content: "Report Abuse";}
+}
+
+/*  Associate View */
+.associate_view table, th, td {border: 1px solid #ddd;padding: 8px;}
+.associate_view table {width: 100%}
+/*  Mobile View */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.associate_view  table, thead, tbody, th, td, tr {display: block;}
+.associate_view table {border: 1px solid #0000;}
+.associate_view thead tr {position: absolute; top: -9999px; left: -9999px;}
+.associate_view tr {margin: 0 0 2rem 0;}
+.associate_view tr:nth-child(odd) {background: #f9f9f9;}
+.associate_view td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.associate_view td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.associate_view td:nth-of-type(1):before {content: "Associate Name";}
+.associate_view td:nth-of-type(2):before {content: "User Name";}
+.associate_view td:nth-of-type(3):before {content: "Feedback Rating";}
+}
+
+/* My Orders */
+.ph_orders table, th, td {border: 1px solid #ddd;padding: 8px;}
+.ph_orders table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.ph_orders  table, thead, tbody, th, td, tr {display: block;}
+.ph_orders table {border: 1px solid #0000;}
+.ph_orders thead tr {position: absolute; top: -9999px; left: -9999px;}
+.ph_orders tr {margin: 0 0 2rem 0;}
+.ph_orders tr:nth-child(odd) {background: #f9f9f9;}
+.ph_orders td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.ph_orders td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.ph_orders td:nth-of-type(1):before {content: "Id";}
+.ph_orders td:nth-of-type(2):before {content: "Product Name";}
+.ph_orders td:nth-of-type(3):before {content: "Order Status";}
+.ph_orders td:nth-of-type(4):before {content: "Action";}
+}
+
+/*Myaccount Order History */
+.Order-History-myaccount table, th, td {border: 1px solid #ddd;padding: 8px;}
+.Order-History-myaccount table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.Order-History-myaccount  table, thead, tbody, th, td, tr {display: block;}
+.Order-History-myaccount table {border: 1px solid #0000;}
+.Order-History-myaccount thead tr {position: absolute; top: -9999px; left: -9999px;}
+.Order-History-myaccount tr {margin: 0 0 2rem 0;}
+.Order-History-myaccount tr:nth-child(odd) {background: #f9f9f9;}
+.Order-History-myaccount td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.Order-History-myaccount td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.Order-History-myaccount td:nth-of-type(1):before {content: "Order Number";}
+.Order-History-myaccount td:nth-of-type(2):before {content: "Order Date";}
+.Order-History-myaccount td:nth-of-type(3):before {content: "Address";}
+.Order-History-myaccount td:nth-of-type(4):before {content: "Order Status";}
+.Order-History-myaccount td:nth-of-type(5):before {content: "Payment Type";}
+.Order-History-myaccount td:nth-of-type(6):before {content: "Total";}
+.Order-History-myaccount td:nth-of-type(7):before {content: "Action";}
+}
+
+/*Myaccount Order Details */
+.order-details-myaccount table, th, td {border: 1px solid #ddd;padding: 8px;}
+.order-details-myaccount table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.order-details-myaccount  table, thead, tbody, th, td, tr {display: block;}
+.order-details-myaccount table {border: 1px solid #0000;}
+.order-details-myaccount thead tr {position: absolute; top: -9999px; left: -9999px;}
+.order-details-myaccount tr {margin: 0 0 2rem 0;}
+.order-details-myaccount tr:nth-child(odd) {background: #f9f9f9;}
+.order-details-myaccount td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.order-details-myaccount td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.order-details-myaccount td:nth-of-type(1):before {content: "Sr.No";}
+.order-details-myaccount td:nth-of-type(2):before {content: "Product Name";}
+.order-details-myaccount td:nth-of-type(3):before {content: "Quantity";}
+.order-details-myaccount td:nth-of-type(4):before {content: "Price";}
+.order-details-myaccount td:nth-of-type(5):before {content: "Select";}
+}
+
+/* invoice-table */
+.invoice-table table, th, td {border: 1px solid #ddd;padding: 8px;}
+.invoice-table table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.invoice-table table, thead, tbody, th, td, tr {display: block;}
+.invoice-table table {border: 1px solid #0000;}
+.invoice-table thead tr {position: absolute; top: -9999px; left: -9999px;}
+.invoice-table tr {margin: 0 0 2rem 0;}
+.invoice-table tr:nth-child(odd) {background: #f9f9f9;}
+.invoice-table td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.invoice-table td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.invoice-table td:nth-of-type(1):before {content: "Sr.No";}
+.invoice-table td:nth-of-type(2):before {content: "Product Name";}
+.invoice-table td:nth-of-type(3):before {content: "Qty";}
+.invoice-table td:nth-of-type(4):before {content: "Packing";}
+.invoice-table td:nth-of-type(5):before {content: "Batch";}
+.invoice-table td:nth-of-type(6):before {content: "Expiry Date";}
+.invoice-table td:nth-of-type(7):before {content: "MRP";}
+.invoice-table td:nth-of-type(8):before {content: "Discount Price";}
+}
+
+/* invoice-table2 */
+.invoice-table2 table, th, td {border: 1px solid #ddd;}
+.invoice-table2 table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.invoice-table2 table, thead, tbody, th, td, tr {display: block;}
+.invoice-table2 table {border: 1px solid #0000;}
+.invoice-table2 thead tr {position: absolute; top: -9999px; left: -9999px;}
+.invoice-table2 tr {margin: 0 0 2rem 0;}
+.invoice-table2 tr:nth-child(odd) {background: #f9f9f9;}
+.invoice-table2 td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.invoice-table2 td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.invoice-table2 td:nth-of-type(1):before {content: "GST%";}
+.invoice-table2 td:nth-of-type(2):before {content: "GST (18%)";}
+.invoice-table2 td:nth-of-type(3):before {content: "IGST";}
+.invoice-table2 td:nth-of-type(4):before {content: "CGST";}
+.invoice-table2 td:nth-of-type(5):before {content: "SGST";}
+.invoice-table2 td:nth-of-type(6):before {content: "Total Invoice Amount";}
+}
+
+/* product_review */
+.product_review table, th, td {border: 1px solid #ddd;padding: 8px;}
+.product_review table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.product_review table, thead, tbody, th, td, tr {display: block;}
+.product_review table {border: 1px solid #0000;}
+.product_review thead tr {position: absolute; top: -9999px; left: -9999px;}
+.product_review tr {margin: 0 0 2rem 0;}
+.product_review tr:nth-child(odd) {background: #f9f9f9;}
+.product_review td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.product_review td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.product_review td:nth-of-type(1):before {content: "Id";}
+.product_review td:nth-of-type(2):before {content: "Product Name";}
+.product_review td:nth-of-type(3):before {content: "Rating";}
+}
+
+
+/* /* product_review */
+.wishlist table, th, td {border: 1px solid #ddd;padding: 8px;}
+.wishlist table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.wishlist table, thead, tbody, th, td, tr {display: block;}
+.wishlist table {border: 1px solid #0000;}
+.wishlist thead tr {position: absolute; top: -9999px; left: -9999px;}
+.wishlist tr {margin: 0 0 2rem 0;}
+.wishlist tr:nth-child(odd) {background: #f9f9f9;}
+.wishlist td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.wishlist td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.wishlist td:nth-of-type(1):before {content: "Product Image";}
+.wishlist td:nth-of-type(2):before {content: "Product Name";}
+.wishlist td:nth-of-type(3):before {content: "Price";}
+.wishlist td:nth-of-type(4):before {content: "Quantity";}
+.wishlist td:nth-of-type(5):before {content: "Action";}
+} */
+
+
+
+/* order_details_ph*/
+.order_details_ph table, th, td {border: 1px solid #ddd;padding: 8px;}
+.order_details_ph table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.order_details_ph table, thead, tbody, th, td, tr {display: block;}
+.order_details_ph table {border: 1px solid #0000;}
+.order_details_ph thead tr {position: absolute; top: -9999px; left: -9999px;}
+.order_details_ph tr {margin: 0 0 2rem 0;}
+.order_details_ph tr:nth-child(odd) {background: #f9f9f9;}
+.order_details_ph td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.order_details_ph td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.order_details_ph td:nth-of-type(1):before {content: "Product Name";}
+.order_details_ph td:nth-of-type(2):before {content: "Packing";}
+.order_details_ph td:nth-of-type(3):before {content: "Quantity";}
+.order_details_ph td:nth-of-type(4):before {content: "Invoice No";}
+.order_details_ph td:nth-of-type(5):before {content: "Batch No";}
+.order_details_ph td:nth-of-type(6):before {content: "Expiry Date";}
+.order_details_ph td:nth-of-type(7):before {content: "GST. Charges";}
+.order_details_ph td:nth-of-type(8):before {content: "Action";}
+}
+
+/* shopping_cart */
+.shopping_cart table, th, td {border: 1px solid #ddd;padding: 8px;}
+.shopping_cart table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.shopping_cart table, thead, tbody, th, td, tr {display: block;}
+.shopping_cart table {border: 1px solid #0000;}
+.shopping_cart thead tr {position: absolute; top: -9999px; left: -9999px;}
+.shopping_cart tr {margin: 0 0 2rem 0;}
+.shopping_cart tr:nth-child(odd) {background: #f9f9f9;}
+.shopping_cart td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.shopping_cart td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.shopping_cart td:nth-of-type(1):before {content: "Item Image";}
+.shopping_cart td:nth-of-type(2):before {content: "Item Name";}
+.shopping_cart td:nth-of-type(3):before {content: "Manufacturer";}
+.shopping_cart td:nth-of-type(4):before {content: "Packaging";}
+.shopping_cart td:nth-of-type(5):before {content: "price";}
+.shopping_cart td:nth-of-type(6):before {content: "Quantity";}
+.shopping_cart td:nth-of-type(7):before {content: "Subtotal";}
+.shopping_cart td:nth-of-type(8):before {content: "Action";}
+.shopping_cart td:nth-of-type(9):before {content: "Savings";}
+}
+
+/* shopping_cart */
+.search-products table, th, td {border: 1px solid #ddd;padding: 8px;}
+.search-products table {width: 100%}
+/* Mobile View  */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.search-products table, thead, tbody, th, td, tr {display: block;}
+.search-products table {border: 1px solid #0000;}
+.search-products thead tr {position: absolute; top: -9999px; left: -9999px;}
+.search-products tr {margin: 0 0 2rem 0;}
+.search-products tr:nth-child(odd) {background: #f9f9f9;}
+.search-products td {border-bottom: 1px solid #e2e2e2; position: relative; padding-left: 50%;}
+.search-products td:before {position: absolute; top: 5; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+.search-products td:nth-of-type(1):before {content: "SN";}
+.search-products td:nth-of-type(2):before {content: "Name";}
+.search-products td:nth-of-type(3):before {content: "Price";}
+.search-products td:nth-of-type(4):before {content: "Discount";}
+.search-products td:nth-of-type(5):before {content: "Manufacturer";}
+.search-products td:nth-of-type(6):before {content: "SKU Id";}
+.search-products td:nth-of-type(7):before {content: "Category";}
+.search-products td:nth-of-type(8):before {content: "Stock";}
+.search-products td:nth-of-type(9):before {content: "Stock Ava.";}
+.search-products td:nth-of-type(10):before {content: "Action";}
+}
+
